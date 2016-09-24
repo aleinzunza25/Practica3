@@ -8,10 +8,7 @@ public class Hora {
 	private int Segundos;
 	
 	//Crear get y set 
-
-	public int getHoras() {
-		return Horas;
-	}
+	
 	public void setHoras(int horas) {
 		this.Horas = horas;
 	}
@@ -33,7 +30,7 @@ public class Hora {
 		this.Segundos = segundos;
 	}
 
-	//El método toString nos permite mostrar la información completa de un objeto,
+	//El mÃ©todo toString nos permite mostrar la informaciÃ³n completa de un objeto,
 	// es decir, el valor de sus atributos.
 
 	//crear un metodo toString
