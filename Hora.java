@@ -32,6 +32,16 @@ public class Hora {
 		this.Minutos = minutos;
 		this.Segundos = segundos;
 	}
+
+	//El método toString nos permite mostrar la información completa de un objeto,
+	// es decir, el valor de sus atributos.
+
+	//crear un metodo toString
+	
+	public String toString() {
+		return "[" + Horas +"hr:"+ "" + Minutos + "min:"+""
+				+ Segundos +"ss"+ "]";
+	}
 	
 
 }
